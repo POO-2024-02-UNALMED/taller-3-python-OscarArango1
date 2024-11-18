@@ -70,3 +70,7 @@ class TV:
     @classmethod
     def getNumTV(cls):
         return cls.numTV  # Obtener la cantidad de televisores creados
+    
+    @classmethod
+    def setNumTV(cls, valor):
+        cls.numTV = valor 
